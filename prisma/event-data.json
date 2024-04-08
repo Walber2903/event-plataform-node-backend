@@ -1,0 +1,79 @@
+[
+  {
+    "id": "2e318cdc-b372-4b9b-bc18-7c6d06a95a0c",
+    "title": "Design Workshop",
+    "details": "Learn advanced design techniques",
+    "slug": "design-workshop",
+    "maximumAttendees": 10
+  },
+  {
+    "id": "a1780ee9-8e1f-4ec4-9a2f-d6d5dc0f1a49",
+    "title": "Technology Conference",
+    "details": null,
+    "slug": "technology-conference",
+    "maximumAttendees": 5
+  },
+  {
+    "id": "e1a6b2a0-5cf8-4f9f-976d-ecb24b91ef82",
+    "title": "Digital Marketing Course",
+    "details": "Effective strategies for social media",
+    "slug": "digital-marketing-course",
+    "maximumAttendees": 15
+  },
+  {
+    "id": "d04650c4-20d3-4d7d-a34f-30312aa5f089",
+    "title": "Innovation Seminar",
+    "details": "Discussion on new technologies",
+    "slug": "innovation-seminar",
+    "maximumAttendees": 7
+  },
+  {
+    "id": "b51b9c02-6e6e-4a36-8eb8-d81fcd45b865",
+    "title": "Entrepreneurship Talk",
+    "details": "Inspiring stories from entrepreneurs",
+    "slug": "entrepreneurship-talk",
+    "maximumAttendees": 12
+  },
+  {
+    "id": "8a008a9d-c453-422f-a7a4-33516dcf3287",
+    "title": "Photography Course",
+    "details": null,
+    "slug": "photography-course",
+    "maximumAttendees": 8
+  },
+  {
+    "id": "f5a04b1a-35b3-41e2-8a8b-5a774f9d9cb2",
+    "title": "Programming Hackathon",
+    "details": "Practical challenges for programmers",
+    "slug": "programming-hackathon",
+    "maximumAttendees": 20
+  },
+  {
+    "id": "43a383d5-7dab-4559-b457-64e10be6dbfd",
+    "title": "Mental Health Conference",
+    "details": "Importance of mental health in the workplace",
+    "slug": "mental-health-conference",
+    "maximumAttendees": 6
+  },
+  {
+    "id": "e2eef9b3-55a1-43c2-b607-9f008e50b23b",
+    "title": "Contemporary Dance Workshop",
+    "details": "Modern exercises and choreographies",
+    "slug": "contemporary-dance-workshop",
+    "maximumAttendees": 18
+  },
+  {
+    "id": "7fd1898c-c99c-4a76-bdef-825365e9a416",
+    "title": "Artificial Intelligence Webinar",
+    "details": "Practical applications of AI in industry",
+    "slug": "artificial-intelligence-webinar",
+    "maximumAttendees": 3
+  },
+  {
+    "id": "f5b16180-22df-469b-8895-6c5887a3c007",
+    "title": "Networking Meeting",
+    "details": null,
+    "slug": "networking-meeting",
+    "maximumAttendees": 13
+  }
+]

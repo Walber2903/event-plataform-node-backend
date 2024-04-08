@@ -1,0 +1,31 @@
+POST http://localhost:3003/events
+Content-Type: application/json
+
+{
+  "title": "New Event 2",
+  "details": "Testing new event",
+  "maximumAttendees": 1
+}
+
+###
+
+POST http://localhost:3003/events/449f6929-17dd-4bb9-8efd-5cc2b30aa740/attendees
+Content-Type: application/json
+
+{
+  "name": "Walber2",
+  "email": "walber2@example.com"
+}
+
+###
+
+GET http://localhost:3003/events/449f6929-17dd-4bb9-8efd-5cc2b30aa740
+
+###
+GET http://localhost:3003/attendees/2/badge
+
+###
+GET http://localhost:3003/attendees/1/check-in
+
+###
+GET http://localhost:3003/events/2e318cdc-b372-4b9b-bc18-7c6d06a95a0c/attendees
