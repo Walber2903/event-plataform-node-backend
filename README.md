@@ -53,12 +53,21 @@ https://nodejs.org/en/download
 
 5- Now you have to run the migrates, to create database running the following command:
 ```npm run db:migrate``` 
+![image](https://github.com/Walber2903/event-plataform-node-backend/assets/23461921/11129d20-0c42-4753-b96c-370ceb2ae965)
 
 6- After created database you need to populate him, with the following command:
 ```npm run db:seed```
+![image](https://github.com/Walber2903/event-plataform-node-backend/assets/23461921/d734f22e-811d-4d7f-a8ae-bdc18dc19233)
 
 7- You can seed the database with prisma studio already incorporated to the project with the command:
 ```npm run db:studio```
+![image](https://github.com/Walber2903/event-plataform-node-backend/assets/23461921/a0a96c37-f69f-46e7-bc9d-9dc7a784ad61)
 
-8- You can also see the API documentation with prisma-swagger with the address and test the connection from there:
+8- In another terminal, you need to start the server with the command:
+```npm run start```
+![image](https://github.com/Walber2903/event-plataform-node-backend/assets/23461921/04213f22-41ae-477d-b502-01a2b8e38c87)
+
+9- You can also see the API documentation with prisma-swagger with the address and test the connection from there:
 http://localhost:3003/docs
+![image](https://github.com/Walber2903/event-plataform-node-backend/assets/23461921/1dd1ddd0-526f-436e-a4b4-8cba8f52bbc6)
+
