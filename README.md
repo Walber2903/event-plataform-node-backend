@@ -37,3 +37,28 @@ In this application we will use a relational database (SQL). For the development
 
 ![erd](https://github.com/Walber2903/event-plataform-node-backend/assets/23461921/ba5d19ca-bddc-45fc-a70e-312a7e699f5f)
 
+#### How to test project
+
+1- Donwload source code of the project with the green button.
+![image](https://github.com/Walber2903/event-plataform-node-backend/assets/23461921/9da53efc-9f2f-43d9-99c4-0fd2e9218725)
+
+2- Open the folder in your prefered code editor, in my case, VS CODE.
+![image](https://github.com/Walber2903/event-plataform-node-backend/assets/23461921/d53f8fbe-8e62-4583-abe9-f3de0fb464c8)
+
+3- With VS Code opened go to the terminal follow the path view -> terminal or press Ctrl+`.
+![image](https://github.com/Walber2903/event-plataform-node-backend/assets/23461921/ca5862c8-ef6f-4f37-8084-ac1f6f938aed)
+
+4- If you don't have NODE.JS installed on you pc, you need to install to your platform through the link:
+https://nodejs.org/en/download
+
+5- Now you have to run the migrates, to create database running the following command:
+```npm run db:migrate``` 
+
+6- After created database you need to populate him, with the following command:
+```npm run db:seed```
+
+7- You can seed the database with prisma studio already incorporated to the project with the command:
+```npm run db:studio```
+
+8- You can also see the API documentation with prisma-swagger with the address and test the connection from there:
+http://localhost:3003/docs
