@@ -12,6 +12,7 @@ import { getAttendeeBadge } from "./routes/get-attendee-badge";
 import { checkIn } from "./routes/check-in";
 import { getEventAttendees } from "./routes/get-event-attendees";
 import { errorHandler } from "./error-handler";
+import { getEvents } from "./routes/get-events";
 
 export const app = fastify().withTypeProvider<ZodTypeProvider>()
 
@@ -43,6 +44,7 @@ app.setSerializerCompiler(serializerCompiler)
 app.register(createEvent)
 app.register(registerForEvent)
 app.register(getEvent)
+app.register(getEvents)
 app.register(getAttendeeBadge)
 app.register(checkIn)
 app.register(getEventAttendees)
